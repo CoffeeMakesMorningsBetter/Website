@@ -1,0 +1,25 @@
+	.jumbotron {
+		opacity: 0.5;
+		/*background-image: url("https://source.unsplash.com/FIKD9t5_5zQ");
+		background-size: cover;*/
+		padding-top: 70px;
+		background-color: white;
+		margin-bottom: -20px;
+	}
+
+	.cards {
+		margin-top: 20px;
+	}
+	h1 {
+		margin-bottom: 20px;
+	}
+
+	.bg-color {
+		background-color:white;
+		padding-left:0;
+		padding-right: 0;
+	}
+
+	br {
+		color: grey;
+	}
