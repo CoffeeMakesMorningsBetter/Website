@@ -1,25 +1,51 @@
-	.jumbotron {
-		opacity: 0.5;
+body {
+		box-sizing: border-box;
+		background-color: #f7f7f7;
+		font-family: 'Playfair Display', serif;
+	}
+
+.jumbotron {
+		/*opacity: 0.5;*/
 		/*background-image: url("https://source.unsplash.com/FIKD9t5_5zQ");
 		background-size: cover;*/
-		padding-top: 70px;
-		background-color: white;
-		margin-bottom: -20px;
-	}
+	padding-top: 70px;
+	background-color: #f7f7f7;
+	margin-bottom: -20px;
+}
 
-	.cards {
-		margin-top: 20px;
-	}
-	h1 {
-		margin-bottom: 20px;
-	}
+.cards {
+	margin-bottom: 20px;
+}
 
-	.bg-color {
-		background-color:white;
-		padding-left:0;
-		padding-right: 0;
-	}
+h1 {
+	margin-bottom: 20px;
+}
 
-	br {
-		color: grey;
-	}
+.bg-color {
+	background-color:#f7f7f7;
+	padding-left:0;
+	padding-right: 0;
+}
+
+br {
+	color: grey;
+}
+	
+
+	
+#pitch {
+	animation-duration: 5s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	from {
+	   margin-left: 100%;
+	   width: 100%; 
+	 }
+
+	 to {
+	   margin-left: 0%;
+	   width: 100%;
+	 }
+}

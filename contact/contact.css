@@ -1,3 +1,9 @@
+body {
+	box-sizing: border-box;
+	background-color: #f7f7f7;
+	font-family: 'Playfair Display', serif;
+}
+
 button[type="submit"] {
     margin-top: 20px;
 
